@@ -52,7 +52,7 @@ const NewsListProvider = ({ children, setNoNews }) => {
     //   }
     // })
 
-    setsearchCountry(countryToAlpha2(country.current.value));
+    setsearchCountry(country.current.value);
     country.current.value = "";
   };
 
