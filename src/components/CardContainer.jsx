@@ -12,7 +12,7 @@ const CardContainer = () => {
           // console.log(news.author)
           <NewsCard key={news.id} news={news} />
         ))}
-      
+    {/* comment */}
       </div>
       
     </>
